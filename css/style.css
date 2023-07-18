@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+    background-color: #ffffff;
+}
+.foto-e-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+hr{
+    width: 100%;
+}
+.perfil .impacto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.impacto .quantidade .counter{
+    font-weight: 700;
+}
+
+.perfil .foto-e-info .cidade,
+.impacto .quantidade .counter-type{
+    color: hsl(227, 10%, 46%);
+}
