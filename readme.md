@@ -19,7 +19,7 @@ No corpo do HTML5 foi criado o container principal (o cartão de perfil) e dentr
 
 Cada elemento recebeu uma classe para ser estilizado no arquivo style.css, recebendo características de tamanho de fonte, força da fonte, cor de letra, espaçamento entre os elementos.
 
-A responsividade dessa página foi obtida usando propriedades flex (display flex e flex-direction column) e um margin para o cartão todo, o que permite o cartão de perfil se adaptar até uma tela de 320px de largura sem perder sua conformação.
+A responsividade dessa página foi obtida usando propriedades flex (display flex e flex-direction column) e de box-sizing, usando um margin para o cartão todo, o que permite o cartão de perfil se adaptar até uma tela de 320px de largura sem perder sua conformação.
 
 O flex-box é uma ferramenta interessante para organizar os elementos na tela e deixá-los concisos (relacionados) entre si, o que facilita a responsividade da página mesmo sem o uso de media query ou alguma outra especificidade.
 
